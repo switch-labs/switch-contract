@@ -50,8 +50,6 @@ abstract contract Multisig {
     bytes32 internal constant MS_REMOVE_BLACK_TYPEHASH =
         keccak256("RemoveBlacklist(address account,uint256 nonce,uint256 deadline)");
 
-    event MultiSigConfigured(address[5] signers, uint8 threshold);
-
     /**
      * @notice Initializes the multisig with a fixed set of 5 signers.
      * @param signers The 5 distinct, non-zero multisig signer addresses.
@@ -100,7 +98,6 @@ abstract contract Multisig {
             _msSigners[i] = s;
         }
         _msThreshold = 3;
-        emit MultiSigConfigured(_msSigners, _msThreshold);
     }
 
     /**

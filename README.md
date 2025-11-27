@@ -1,8 +1,8 @@
 # switch-contract
 
 ## Versions
-- **Solidity**: ^0.8.30  
-- **OpenZeppelin**: 5.4.0
+- **Solidity**: `^0.8.30`  
+- **OpenZeppelin**: `5.4.0`
 
 ## Switch Token is an ERC20-compatible token
 - **Standard ERC20 transfers and balance management**
