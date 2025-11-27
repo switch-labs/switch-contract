@@ -5,7 +5,7 @@
 - **OpenZeppelin**: 5.4.0
 
 ## Switch Token is an ERC20-compatible token
-- admin privileges are controlled by a **3-of-5 multisig** to improve security and operational robustness, instead of using a single `owner` address (which creates a single point of failure).   
+- Admin privileges are controlled by a **3-of-5 multisig** to improve security and operational robustness, instead of using a single `owner` address (which creates a single point of failure).   
 - **Standard ERC20 transfers and balance management**
 - **EIP-2612 permit (gasless approvals) support**
 - **3-of-5 EIP-712 multisig–based administrative control**
